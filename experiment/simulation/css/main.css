@@ -49,6 +49,11 @@ p {
     position: relative;
 }
 
+#arrowleft {
+    position: absolute;
+    left: 550px;
+    top: 50px;
+}
 
 .projection {
     text-align: center;
@@ -59,8 +64,23 @@ p {
     color: white;
 }
 
-.texts {
-    font-size: 14px;
+#substep{
+    position: absolute;
+    left: 130px;
+    visibility: visible;
+}
+
+#substep1{
+    position: absolute;
+    left: 130px;
+    visibility: hidden;
+}
+
+
+.subarrow{
+    position: absolute;
+    height: 20px;
+    left: 100px;
 }
 
 .content {
@@ -73,14 +93,6 @@ p {
     top: .1px;
     left: 0px;
     visibility: hidden;
-}
-
-#transbox1 {
-    position: absolute;
-    top: 88px;
-    left: 40px;
-    width: 495px;
-    height: 349px;
 }
 
 #board {
@@ -101,12 +113,16 @@ p {
 
 #sheet {
     border: 1px solid black;
-    border: none;
     position: absolute;
-    top: 25px;
-    left: 625px;
-    width: 140px;
-    height: 105px;
+    top: 23px;
+    left: 615px;
+    width: 160px;
+    height: 110px;
+}
+
+#next{
+    visibility: hidden;
+    padding: 5px;
 }
 
 #btn1 {
@@ -168,10 +184,25 @@ p {
     left: 665px;
 }
 
+#drafter-out {
+    height: 180px;
+    position: absolute;
+    top: 170px;
+    left: 600px;
+}
+
+#drafter-in {
+    height: 150px;
+    position: absolute;
+    animation: drafter 1s 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards
+}
+
 #boardclip1 {
     position: absolute;
     height: 40px;
-    animation: anuj .7s 1;
+    animation: anuj 1s 1;
     animation-play-state: paused;
     animation-fill-mode: forwards;
 
@@ -265,3 +296,35 @@ p {
 
     }
 }
+
+@keyframes drafter {
+    0% {
+        top: 45px;
+        left: 54px;
+
+    }
+
+    100% {
+        top: 80px;
+        left: 54px;
+
+    }
+}
+
+.content button {
+    visibility: hidden;    
+    position: absolute;
+    left: 662px;
+    top: 389px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #2150a0;
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: 5px"
+}
+
+/* --------------STEP 1 CSS---------------- */
+

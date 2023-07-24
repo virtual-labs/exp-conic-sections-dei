@@ -63,11 +63,21 @@ p {
     font-size: 14px;
 }
 
+
+
 .content {
     display: flex;
     justify-content: space-around;
     position: absolute;
     top: 200px;
+}
+
+
+
+.images{
+    position: absolute;
+    top: 46px;
+    left: 4px;
 }
 
 #btn1 {
@@ -89,6 +99,7 @@ p {
 .hide{
     display: none;
 }
+
 
 #container2{
     border: 1px solid black;
@@ -113,6 +124,9 @@ ul{
     position: absolute;
     top: 80px;
     left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 
 #container2:hover{
