@@ -326,5 +326,105 @@ p {
     padding-bottom: 5px"
 }
 
+
 /* --------------STEP 1 CSS---------------- */
 
+.content1 button {
+    visibility: hidden;    
+    position: absolute;
+    left: 662px;
+    top: 530px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #2150a0;
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: 5px"
+}
+
+#gif1{
+    position: absolute;
+    top: 180px;
+    left:30px;
+}
+
+#gif2{
+    position: absolute;
+    top: 180px;
+    left:30px;
+}
+
+#gif3{
+    position: absolute;
+    top: 180px;
+    left:30px;
+}
+
+#transbox2{
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 54deg;
+    position: absolute;
+    left: 527px;
+    top: 182px;
+}
+
+#transbox3{
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 54deg;
+    position: absolute;
+    left: 527px;
+    top: 182px;
+}
+
+#transbox4{
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 54deg;
+    position: absolute;
+    left: 527px;
+    top: 182px;
+}
+
+#one{
+    position: absolute;
+    top: 180px;
+    left:30px;
+    /* border: 2px solid black; */
+}
+
+#two{
+    position: absolute;
+    top: 180px;
+    left:30px;
+    /* border: 2px solid black; */
+}
+
+#whitebox{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color: white;
+    position: absolute;
+    top: 320px;
+    left: 230px;
+    visibility: visible;
+    /* initial visible */
+}
+
+#arrow1{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 195px;
+    left: 459px;
+    rotate: 50deg;
+    z-index: 10;
+    visibility: visible;
+    /* initial visible */
+}

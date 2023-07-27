@@ -1,15 +1,12 @@
 // ---------------------------board setup javascript--------------------------
 
-// function myStopFunction() {
-//   clearTimeout(myTimeout);
-// }
 
 let click = 0;
 
 function showNextBtn(click) {
   if (click === 5)
     myTimeout = setTimeout(
-      () => (document.getElementById("next").style.visibility = "visible"),
+      () => document.getElementById("next").style.visibility = "visible",
       1000
     );
 }
@@ -29,7 +26,6 @@ function timedelay() {
   document.getElementById("drafter-out").style.visibility = "visible";
   document.getElementById("substep").style.visibility = "hidden";
   document.getElementById("substep1").style.visibility = "visible";
-  // myStopFunction();
 }
 
 function clipmove1() {
@@ -76,3 +72,4 @@ document.getElementById("drafter-out").addEventListener("click", () => {
   click += 1;
   showNextBtn(click);
 });
+

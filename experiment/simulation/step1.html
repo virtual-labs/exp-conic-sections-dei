@@ -22,6 +22,7 @@
     <!-- gray line -->
 
     <div class="line"></div>
+
        <!-- container box -->
 
        <div class="hero">
@@ -35,11 +36,40 @@
                      <i>Draw the axis AB and directrix CD perpendicular to each other.</i> 
                     </p>
                 </div>
-                
+                <div class="content1">
 
+                  <img id="arrow1" src="./images/arrow.gif" height="40px">
+
+                  <img id="one" src="./images/one.png"  height="360px" width=600px style="visibility: visible;" > 
+                  <!-- initial vissible -->
+
+                  <img id="gif1" src="./images/gif1.gif" height="360px" width=600px" style="visibility: hidden;">
+                  <!-- initial hidden -->
+
+                  <img id="gif2" src="./images/gif2.gif"  height="360px" width=600px" style="visibility: hidden;">
+                  <!-- initial hidden -->
+                  
+                  <img id="two" src="./images/two.png" height="360px" width=600px style="visibility: hidden;">
+                  
+                  <img id="gif3" src="./images/gif3.gif"  height="360px" width=600px" style="visibility: hidden;">
+                  <!-- initial hidden -->
+                  
+
+                  <div id="whitebox">
+                  </div>
+                  <img id="transbox2" src="./images/png's and gif's/transbox.png" style="visibility: visible;" onclick="gif1()">
+
+                  <img id="transbox3" src="./images/png's and gif's/transbox.png" style="visibility: hidden;" onclick="gif2()">
+                  
+                  <img id="transbox4" src="./images/png's and gif's/transbox.png" style="visibility: hidden;" onclick="gif3()">
+
+                  <button id="next1" onclick="parent.location='./step2.html'">Next Step</button>
+
+                </div>
             </div>
           </div>
         </div>
       </div>
+      <script src="./js/step1.js"></script>
   </body>
 </html>
