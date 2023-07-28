@@ -31,8 +31,9 @@ function gif3() {
   document.getElementById("gif3").style.visibility = "visible";
   document.getElementById("two").style.visibility = "hidden";
   // document.getElementById("next1").style.visibility = "visible";
-  myTimeout = setTimeout(
-    () => document.getElementById("next1").style.visibility = "visible",
-    5500
-  );
+  myTimeout = setTimeout(() => {
+    document.getElementById("next1").style.visibility = "visible";
+    document.getElementById("gif3").style.visibility = "hidden";
+    document.getElementById("three").style.visibility = "visible";
+  }, 5500);
 }
