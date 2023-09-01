@@ -31,7 +31,7 @@ p {
 .line {
     width: 100%;
     height: 1.6rem;
-    background-color: #212529;
+    background-color: rgba(222, 235, 247, 255);;
 }
 
 .hero {
@@ -41,8 +41,6 @@ p {
 }
 
 #container {
-    border: 1px solid black;
-    border-top: none;
     height: 600px;
     width: 800px;
     background-color: rgba(222, 235, 247, 255);
@@ -313,16 +311,18 @@ p {
 .content button {
     visibility: hidden;    
     position: absolute;
-    left: 662px;
+    left: 674px;
     top: 389px;
-    width: 120px;
     height: 40px;
+    width: 100px;
     cursor: pointer;
     font-size: 15px;
-    background-color: #2150a0;
+    background-color: rgb(20,117,228);  
     padding-top: 5px;
     color: #FFF;
-    padding-bottom: 5px"
+    border: none;
+    padding-bottom: "5px";
+    border-radius: 4px;
 }
 
 
@@ -332,15 +332,18 @@ p {
     visibility: hidden;    
     position: absolute;
     left: 662px;
-    top: 530px;
+    top: 539px;
     width: 120px;
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: #2150a0;
+    background-color: rgb(20,117,228);  
     padding-top: 5px;
+    border-radius: 4px;
     color: #FFF;
-    padding-bottom: 5px"
+    border: none;
+    border-radius: 4px;
+    padding-bottom: "5px";
 }
 
 
@@ -376,6 +379,23 @@ p {
 }
 
 #gif6{
+    position: absolute;
+    top: 180px;
+    left:30px;
+}
+#gif7{
+    position: absolute;
+    top: 180px;
+    left:30px;
+}
+
+#gif9{
+    position: absolute;
+    top: 180px;
+    left:30px;
+}
+
+#gif10{
     position: absolute;
     top: 180px;
     left:30px;
@@ -440,6 +460,16 @@ p {
     top: 182px;
 }
 
+#transbox8{
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 70deg;
+    position: absolute;
+    left: 527px;
+    top: 180px;
+}
+
 #one{
     position: absolute;
     top: 180px;
@@ -489,6 +519,33 @@ p {
     /* border: 2px solid black; */
 }
 
+#nine{
+    position: absolute;
+    top: 180px;
+    left:30px;
+    /* border: 2px solid black; */
+}
+
+#ten{
+    position: absolute;
+    top: 180px;
+    left:30px;
+    /* border: 2px solid black; */
+}
+
+#eleven{
+    position: absolute;
+    top: 180px;
+    left:30px;
+    /* border: 2px solid black; */
+}
+
+#twelve{
+    position: absolute;
+    top: 180px;
+    left:30px;
+    /* border: 2px solid black; */
+}
 #whitebox{
     height: 40px;
     width: 200px;
@@ -547,47 +604,134 @@ p {
     /* initial visible */
 }
 
+#arrow4{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 195px;
+    left: 489px;
+    rotate: 68deg;
+    z-index: 10;
+    visibility: visible;
+    /* initial visible */
+}
+
 .content2 button {
     visibility: hidden;    
     position: absolute;
     left: 662px;
-    top: 530px;
+    top: 539px;
     width: 120px;
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: #2150a0;
+    background-color: rgb(20,117,228);  
     padding-top: 5px;
+    border: none;
+    border-radius: 4px;
     color: #FFF;
-    padding-bottom: 5px"
+    padding-bottom: "5px";
+    border-radius: 4px;
 }
 
 .content3 button {
     visibility: hidden;    
     position: absolute;
     left: 662px;
-    top: 530px;
+    top: 539px;
+    border: none;
     width: 120px;
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: #2150a0;
+    background-color: rgb(20,117,228);  
     padding-top: 5px;
     color: #FFF;
-    padding-bottom: 5px"
+    padding-bottom: "5px";
+    border-radius: 4px;
 }
 
 .content4 button {
     visibility: hiden;    
     position: absolute;
     left: 662px;
-    top: 530px;
+    top: 539px;
+    border: none;
     width: 120px;
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: #2150a0;
+    background-color: rgb(20,117,228);  
     padding-top: 5px;
     color: #FFF;
-    padding-bottom: 5px"
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content5 button {
+    visibility: hiden;    
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20,117,228);  
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content6 button {
+    visibility: hiden;    
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20,117,228);  
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content7 button {
+    visibility: hiden;    
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20,117,228);  
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+.content8 button {
+    visibility: hiden;    
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20,117,228);  
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
 }

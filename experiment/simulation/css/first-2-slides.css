@@ -41,8 +41,6 @@ p {
 }
 
 #container {
-    border: 1px solid black;
-    border-top: none;
     height: 600px;
     width: 800px;
     background-color: #dce5ec;
@@ -81,17 +79,21 @@ p {
 }
 
 #btn1 {
-    font-size: 15px;
+    font-size: 16px;
     font-family: inherit;
-    height: 2rem;
-    width: 6.3rem;
-    background-color: #2150a0;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(20,117,228);  
     color: white;
     position: absolute;
-    top: 350px;
+    top: 344px;
     left: 680px;
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+}
+
+#btn1:hover{
+    cursor: pointer;
 }
 
 /* our css code of container1 ends here thank you */
@@ -102,8 +104,6 @@ p {
 
 
 #container2{
-    border: 1px solid black;
-    border-top: none;
     height: 600px;
     width: 800px;
     background-color: #dce5ec;
@@ -129,9 +129,6 @@ ul{
     gap: 14px;
 }
 
-#container2:hover{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
 
 #container2 li a{
 text-decoration: none;
@@ -140,19 +137,19 @@ color: blue;
 }
 
 #container2 li a:hover{
-    color: rgb(180, 2, 2);
+    color: rgb(136, 0, 0)
 }
 
 #btn2{
     position: absolute;
-    top: 550px;
-    left: 50px;
-    font-size: 15px;
+    top: 544px;
+    left: 20px;
+    font-size: 16px;
     font-family: inherit;
-    height: 2rem;
-    width: 6.3rem;
-    background-color: #2150a0;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(20,117,228);
     color: white;
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
 }
