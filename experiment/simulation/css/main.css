@@ -31,7 +31,8 @@ p {
 .line {
     width: 100%;
     height: 1.6rem;
-    background-color: rgba(222, 235, 247, 255);;
+    background-color: rgba(222, 235, 247, 255);
+    ;
 }
 
 .hero {
@@ -54,7 +55,9 @@ p {
 }
 
 .projection {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 2.5rem;
     letter-spacing: .1em;
     font-size: 1.6rem;
@@ -62,20 +65,20 @@ p {
     color: white;
 }
 
-#substep{
+#substep {
     position: absolute;
     left: 130px;
     visibility: visible;
 }
 
-#substep1{
+#substep1 {
     position: absolute;
     left: 130px;
     visibility: hidden;
 }
 
 
-.subarrow{
+.subarrow {
     position: absolute;
     height: 20px;
     left: 100px;
@@ -118,25 +121,13 @@ p {
     height: 110px;
 }
 
-#next{
+#next {
     visibility: hidden;
     padding: 5px;
 }
 
-#btn1 {
-    font-size: 15px;
-    font-family: inherit;
-    height: 2rem;
-    width: 6.3rem;
-    background-color: #2150a0;
-    color: white;
-    position: absolute;
-    top: 350px;
-    left: 680px;
-    border-radius: 4px;
 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+
 
 .board1 {
     position: absolute;
@@ -158,7 +149,7 @@ p {
     position: absolute;
     height: 80px;
     left: 580px;
-    
+
 }
 
 #clip2 {
@@ -308,100 +299,119 @@ p {
     }
 }
 
-.content button {
-    visibility: hidden;    
-    position: absolute;
-    left: 674px;
-    top: 389px;
-    height: 40px;
-    width: 100px;
-    cursor: pointer;
-    font-size: 15px;
-    background-color: rgb(20,117,228);  
-    padding-top: 5px;
-    color: #FFF;
-    border: none;
-    padding-bottom: "5px";
-    border-radius: 4px;
-}
 
-
-/* --------------STEP 1 CSS---------------- */
-
-.content1 button {
-    visibility: hidden;    
-    position: absolute;
-    left: 662px;
-    top: 539px;
-    width: 120px;
-    height: 40px;
-    cursor: pointer;
-    font-size: 15px;
-    background-color: rgb(20,117,228);  
-    padding-top: 5px;
-    border-radius: 4px;
-    color: #FFF;
-    border: none;
-    border-radius: 4px;
-    padding-bottom: "5px";
-}
-
-
-
-#gif1{
+#gif1 {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
 }
 
-#gif2{
+#gif2 {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
 }
 
-#gif3{
+#gif3 {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
 }
 
-#gif4{
+#gif4 {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
 }
 
-#gif5{
+#gif5 {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
 }
 
-#gif6{
+#gif6 {
     position: absolute;
     top: 180px;
-    left:30px;
-}
-#gif7{
-    position: absolute;
-    top: 180px;
-    left:30px;
+    left: 30px;
 }
 
-#gif9{
+#gif7 {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
 }
 
-#gif10{
+#gif9 {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
 }
 
-#transbox2{
+#gif10 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+
+#gif11 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+
+#gif12 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+
+#gif13 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+#gif14 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+#gif15 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+#gif16 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+#gif17 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+#gif18 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+#gif19 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+#transbox2 {
     /* border: 2px solid black; */
     height: 145px;
     width: 25px;
@@ -411,7 +421,7 @@ p {
     top: 182px;
 }
 
-#transbox3{
+#transbox3 {
     /* border: 2px solid black; */
     height: 145px;
     width: 25px;
@@ -421,7 +431,7 @@ p {
     top: 182px;
 }
 
-#transbox4{
+#transbox4 {
     /* border: 2px solid black; */
     height: 145px;
     width: 25px;
@@ -431,7 +441,7 @@ p {
     top: 182px;
 }
 
-#transbox5{
+#transbox5 {
     /* border: 2px solid black; */
     height: 145px;
     width: 25px;
@@ -441,7 +451,7 @@ p {
     top: 182px;
 }
 
-#transbox6{
+#transbox6 {
     height: 145px;
     width: 25px;
     rotate: 54deg;
@@ -450,7 +460,7 @@ p {
     top: 182px;
 }
 
-#transbox7{
+#transbox7 {
     /* border: 2px solid black; */
     height: 145px;
     width: 25px;
@@ -460,7 +470,57 @@ p {
     top: 182px;
 }
 
-#transbox8{
+#transbox14 {
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 41deg;
+    position: absolute;
+    left: 560px;
+    top: 167px;
+}
+
+#transbox15 {
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 41deg;
+    position: absolute;
+    left: 535px;
+    top: 167px;
+}
+
+#transbox11 {
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 41deg;
+    position: absolute;
+    left: 567px;
+    top: 162px;
+}
+
+#transbox12 {
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 52deg;
+    position: absolute;
+    left: 533px;
+    top: 178px;
+}
+
+#transbox13 {
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: -37deg;
+    position: absolute;
+    left: 530px;
+    top: 178px;
+}
+
+#transbox8 {
     /* border: 2px solid black; */
     height: 145px;
     width: 25px;
@@ -470,83 +530,209 @@ p {
     top: 180px;
 }
 
-#one{
+#transbox9 {
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 45px;
+    position: absolute;
+    left: 510px;
+    top: 195px;
+}
+
+#transbox10 {
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 65px;
+    position: absolute;
+    left: 230px;
+    top: 195px;
+    z-index: 10;
+}
+
+#one {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#two{
+#two {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#three{
+#three {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#four{
+#four {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#five{
+
+#five {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#six{
+#six {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#seven{
+#seven {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#nine{
+#nine {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#ten{
+#ten {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#eleven{
+#eleven {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
 
-#twelve{
+#twelve {
     position: absolute;
     top: 180px;
-    left:30px;
+    left: 30px;
     /* border: 2px solid black; */
 }
-#whitebox{
+
+#thirteen {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#fourteen {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#fifteen {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#sixteen {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#seventeen {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#eighteen {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#nineteen {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#twenty {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#twentyone {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#twentytwo {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#twentythree {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#twentyfour {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#twentyfive {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#twentysix {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#twentyseven {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+#whitebox {
     height: 40px;
     width: 200px;
     /* border: 2px solid black; */
@@ -558,53 +744,99 @@ p {
     /* initial visible */
 }
 
-#whitebox1{
+#whitebox1 {
     height: 120px;
     width: 20px;
     /* border: 2px solid black; */
     background-color: white;
     position: absolute;
     top: 224px;
-    left:260px;
+    left: 260px;
     visibility: visible;
     z-index: 10;
     /* initial visible */
 }
 
-#arrow1{
+#arrow1 {
     /* border: 2px solid black; */
     position: absolute;
     top: 195px;
-    left: 459px;
+    left: 477px;
+    rotate: 53deg;
+    z-index: 10;
+    visibility: visible;
+    /* initial visible */
+}
+
+#arrow2 {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 199px;
+    left: 484px;
     rotate: 50deg;
     z-index: 10;
     visibility: visible;
     /* initial visible */
 }
 
-#arrow2{
+
+#arrow3 {
     /* border: 2px solid black; */
     position: absolute;
-    top: 195px;
-    left: 459px;
-    rotate: 50deg;
+    top: 200px;
+    left: 505px;
+    rotate: 40deg;
     z-index: 10;
     visibility: visible;
     /* initial visible */
 }
 
-#arrow3{
+
+#arrow10 {
     /* border: 2px solid black; */
     position: absolute;
-    top: 195px;
-    left: 459px;
-    rotate: 50deg;
+    top: 197px;
+    left: 485px;
+    rotate: 53deg;
     z-index: 10;
     visibility: visible;
     /* initial visible */
 }
 
-#arrow4{
+#arrow9 {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 200px;
+    left: 465px;
+    rotate: 40deg;
+    z-index: 10;
+    visibility: visible;
+    /* initial visible */
+}
+
+#arrow7 {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 200px;
+    left: 485px;
+    rotate: 48deg;
+    z-index: 10;
+    visibility: visible;
+    /* initial visible */
+}
+
+#arrow8 {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 250px;
+    left: 475px;
+    rotate: -38deg;
+    z-index: 10;
+    visibility: hidden;
+    /* initial visible */
+}
+
+#arrow4 {
     /* border: 2px solid black; */
     position: absolute;
     top: 195px;
@@ -615,8 +847,47 @@ p {
     /* initial visible */
 }
 
-.content2 button {
-    visibility: hidden;    
+#arrow5 {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 225px;
+    left: 439px;
+    z-index: 10;
+    visibility: visible;
+    /* initial visible */
+}
+
+#arrow6 {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 225px;
+    left: 179px;
+    z-index: 10;
+    visibility: hidden;
+    /* initial visible */
+}
+
+.content button {
+    visibility: hidden;
+    position: absolute;
+    left: 674px;
+    top: 389px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    padding-top: 5px;
+    color: #FFF;
+    border: none;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+
+
+.content1 button {
+    visibility: hidden;
     position: absolute;
     left: 662px;
     top: 539px;
@@ -624,7 +895,25 @@ p {
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(20,117,228);  
+    background-color: rgb(20, 117, 228);
+    padding-top: 5px;
+    border-radius: 4px;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    padding-bottom: "5px";
+}
+
+.content2 button {
+    visibility: hidden;
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
     padding-top: 5px;
     border: none;
     border-radius: 4px;
@@ -634,7 +923,7 @@ p {
 }
 
 .content3 button {
-    visibility: hidden;    
+    visibility: hidden;
     position: absolute;
     left: 662px;
     top: 539px;
@@ -643,7 +932,7 @@ p {
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(20,117,228);  
+    background-color: rgb(20, 117, 228);
     padding-top: 5px;
     color: #FFF;
     padding-bottom: "5px";
@@ -651,7 +940,7 @@ p {
 }
 
 .content4 button {
-    visibility: hiden;    
+    visibility: hiden;
     position: absolute;
     left: 662px;
     top: 539px;
@@ -660,7 +949,7 @@ p {
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(20,117,228);  
+    background-color: rgb(20, 117, 228);
     padding-top: 5px;
     color: #FFF;
     padding-bottom: "5px";
@@ -668,7 +957,7 @@ p {
 }
 
 .content5 button {
-    visibility: hiden;    
+    visibility: hiden;
     position: absolute;
     left: 662px;
     top: 539px;
@@ -677,7 +966,7 @@ p {
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(20,117,228);  
+    background-color: rgb(20, 117, 228);
     padding-top: 5px;
     color: #FFF;
     padding-bottom: "5px";
@@ -685,7 +974,7 @@ p {
 }
 
 .content6 button {
-    visibility: hiden;    
+    visibility: hiden;
     position: absolute;
     left: 662px;
     top: 539px;
@@ -694,7 +983,7 @@ p {
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(20,117,228);  
+    background-color: rgb(20, 117, 228);
     padding-top: 5px;
     color: #FFF;
     padding-bottom: "5px";
@@ -702,7 +991,7 @@ p {
 }
 
 .content7 button {
-    visibility: hiden;    
+    visibility: hiden;
     /* border: 2px solid black; */
     position: absolute;
     left: 662px;
@@ -712,14 +1001,15 @@ p {
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(20,117,228);  
+    background-color: rgb(20, 117, 228);
     padding-top: 5px;
     color: #FFF;
     padding-bottom: "5px";
     border-radius: 4px;
 }
+
 .content8 button {
-    visibility: hiden;    
+    visibility: hiden;
     /* border: 2px solid black; */
     position: absolute;
     left: 662px;
@@ -729,7 +1019,115 @@ p {
     height: 40px;
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(20,117,228);  
+    background-color: rgb(20, 117, 228);
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content9 button {
+    visibility: hiden;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content10 button {
+    visibility: hiden;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content11 button {
+    visibility: hiden;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content12 button {
+    visibility: hiden;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content13 button {
+    visibility: hiden;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: "5px";
+    border-radius: 4px;
+}
+
+.content14 button {
+    visibility: hiden;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 662px;
+    top: 539px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
     padding-top: 5px;
     color: #FFF;
     padding-bottom: "5px";

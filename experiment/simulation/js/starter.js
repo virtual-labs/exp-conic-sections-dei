@@ -1,12 +1,11 @@
 // ---------------------------board setup javascript--------------------------
 
-
 let click = 0;
 
 function showNextBtn(click) {
   if (click === 5)
     myTimeout = setTimeout(
-      () => document.getElementById("next").style.visibility = "visible",
+      () => (document.getElementById("next").style.visibility = "visible"),
       1000
     );
 }
@@ -72,4 +71,3 @@ document.getElementById("drafter-out").addEventListener("click", () => {
   click += 1;
   showNextBtn(click);
 });
-
