@@ -11,10 +11,10 @@ function showNextBtn(click) {
 }
 
 document.getElementById("transbox").addEventListener("click", () => {
-  document.getElementById("sheet").style.visibility = "hidden";
   document.getElementById("transbox").style.visibility = "hidden";
-  document.getElementById("gif-1").style.visibility = "visible";
-  myTimeout = setTimeout(timedelay, 1600);
+  document.getElementById("sheet").style.animationPlayState = "running";
+  document.getElementById("sheet").style.animationIterationCount = "1";
+  myTimeout = setTimeout(timedelay, 2000);
 });
 
 function timedelay() {

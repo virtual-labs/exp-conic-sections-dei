@@ -67,13 +67,13 @@ p {
 
 #substep {
     position: absolute;
-    left: 130px;
+    left: 70px;
     visibility: visible;
 }
 
 #substep1 {
     position: absolute;
-    left: 130px;
+    left: 70px;
     visibility: hidden;
 }
 
@@ -81,7 +81,7 @@ p {
 .subarrow {
     position: absolute;
     height: 20px;
-    left: 100px;
+    left: 30px;
 }
 
 .content {
@@ -98,27 +98,29 @@ p {
 
 #board {
     position: absolute;
-    top: 88px;
-    left: 40px;
-    width: 495px;
-    height: 349px;
+    top: 158px;
+    left: 30px;
+    width: 395px;
+    height: 269px;
 }
 
 #transbox {
+    /* border: 2px solid black; */
     position: absolute;
-    top: 25px;
-    left: 615px;
-    width: 157px;
-    height: 105px;
+    top: -42px;
+    left: 455px;
+    width: 325px;
+    height: 209px;
 }
 
 #sheet {
     border: 1px solid black;
     position: absolute;
-    top: 23px;
-    left: 615px;
-    width: 160px;
-    height: 110px;
+    width: 345px;
+    height: 239px;
+    animation: sheetmove 2s infinite;
+    animation-play-state: paused;
+    animation-fill-mode: forwards
 }
 
 #next {
@@ -229,72 +231,86 @@ p {
 
 }
 
+@keyframes sheetmove {
+    0% {
+        top: -42px;
+        left: 438px;
+    }
+
+    100% {
+        top: 166px;
+        left: 40px;
+        width: 375px;
+        height: 249px;
+    }
+}
+
 @keyframes anuj {
     0% {
-        top: 45px;
-        left: 69px;
+        top: 100px;
+        left: 49px;
 
     }
 
     100% {
-        top: 74px;
-        left: 69px;
+        top: 140px;
+        left: 49px;
 
     }
 }
 
 @keyframes tripathi {
     0% {
-        top: 40px;
-        left: 492px;
+        top: 100px;
+        left:392px;
 
     }
 
     100% {
-        left: 492px;
-        top: 74px;
+        left:392px;
+        top: 140px;
 
     }
 }
 
 @keyframes anuj1 {
     0% {
-        top: 420px;
-        left: 69px;
+        top: 437px;
+        left: 49px;
 
     }
 
     100% {
         top: 407px;
-        left: 69px;
+        left: 49px;
 
     }
 }
 
 @keyframes tripathi1 {
     0% {
-        top: 420px;
-        left: 492px;
+        top: 437px;
+        left:392px;
 
     }
 
     100% {
         top: 407px;
-        left: 492px;
+        left:392px;
 
     }
 }
 
 @keyframes drafter {
     0% {
-        top: 45px;
-        left: 54px;
+        top: 120px;
+        left: 24px;
 
     }
 
     100% {
-        top: 80px;
-        left: 54px;
+        top: 150px;
+        left: 24px;
 
     }
 }
