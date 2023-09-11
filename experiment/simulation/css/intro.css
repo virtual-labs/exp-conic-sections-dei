@@ -48,8 +48,9 @@ p {
 }
 
 .projection {
-    text-align: center;
-    padding-top: 5px;
+    display: flex;
+        justify-content: center;
+    align-items: center;
     height: 2.5rem;
     letter-spacing: .1em;
     font-size: 1.6rem;
@@ -130,7 +131,9 @@ p {
 }
 
 .projection2 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 2.5rem;
     letter-spacing: .1em;
     font-size: 1.6rem;
@@ -154,9 +157,6 @@ ul {
     color: blue;
 }
 
-#container2 li a:hover {
-    color: rgb(136, 0, 0)
-}
 
 #btn2 {
     position: absolute;
