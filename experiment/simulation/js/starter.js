@@ -14,7 +14,7 @@ document.getElementById("transbox").addEventListener("click", () => {
   document.getElementById("transbox").style.visibility = "hidden";
   document.getElementById("sheet").style.animationPlayState = "running";
   document.getElementById("sheet").style.animationIterationCount = "1";
-  myTimeout = setTimeout(timedelay, 2000);
+  myTimeout = setTimeout(timedelay, 1300);
 });
 
 function timedelay() {

@@ -98,6 +98,8 @@ function gif8() {
   document.getElementById("arrow10").style.visibility = "hidden";
   document.getElementById("gif7").style.visibility = "visible";
   myTimeout = setTimeout(() => {
+    document.getElementById("gif7").style.visibility = "hidden";
+    document.getElementById("eight").style.visibility = "visible";
     document.getElementById("next").style.visibility = "visible";
   }, 7500);
 }
@@ -194,7 +196,7 @@ function gif15() {
 // -----------------step12--------------------
 
 function gif16() {
-  document.getElementById("twentyone").style.visibility = "hidden";
+  document.getElementById("twenty").style.visibility = "hidden";
   document.getElementById("arrow4").style.visibility = "hidden";
   document.getElementById("gif16").style.visibility = "visible";
   myTimeout = setTimeout(() => {
