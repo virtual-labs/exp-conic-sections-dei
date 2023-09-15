@@ -4,7 +4,7 @@ const page1 = document.getElementById("container");
 const page2 = document.getElementById("container2");
 
 document.getElementById("btn1").addEventListener("click", () => {
-  parent.location = "../problem-1/links.html";
+  parent.location = "./problem-1/links.html";
 });
 
 function gif1() {
@@ -108,7 +108,7 @@ function gif8() {
 
 function gif9() {
   document.getElementById("nine").style.visibility = "hidden";
-  document.getElementById("arrow10").style.visibility = "hidden";
+  document.getElementById("arrow11").style.visibility = "hidden";
   document.getElementById("gif9").style.visibility = "visible";
   myTimeout = setTimeout(() => {
     document.getElementById("next").style.visibility = "visible";
@@ -151,7 +151,7 @@ function gif12() {
     document.getElementById("gif12").style.visibility = "hidden";
     document.getElementById("fourteen").style.visibility = "visible";
     document.getElementById("next").style.visibility = "visible";
-  }, 4500);
+  }, 5500);
 }
 
 // -----------------step9--------------------
@@ -164,7 +164,7 @@ function gif13() {
     document.getElementById("gif13").style.visibility = "hidden";
     document.getElementById("sixteen").style.visibility = "visible";
     document.getElementById("next").style.visibility = "visible";
-  }, 32000);
+  }, 52000);
 }
 
 // -----------------step10--------------------
