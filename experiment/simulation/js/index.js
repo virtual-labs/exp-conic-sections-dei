@@ -164,7 +164,7 @@ function gif13() {
     document.getElementById("gif13").style.visibility = "hidden";
     document.getElementById("sixteen").style.visibility = "visible";
     document.getElementById("next").style.visibility = "visible";
-  }, 52000);
+  }, 42200);
 }
 
 // -----------------step10--------------------
