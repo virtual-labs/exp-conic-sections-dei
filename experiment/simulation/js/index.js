@@ -3,9 +3,21 @@
 const page1 = document.getElementById("container");
 const page2 = document.getElementById("container2");
 
-document.getElementById("btn1").addEventListener("click", () => {
-  parent.location = "./problem-1/links.html";
+
+function openlinks(){
+  document.getElementById("btn1").addEventListener("click", () => {
+    parent.location = "./problem-1/links.html";
+  });
+}
+
+function openindex(){
+
+document.getElementById("btn2").addEventListener("click", () => {
+ parent.location="../index.html"
 });
+}
+
+
 
 function gif1() {
   document.getElementById("one").style.visibility = "hidden";
