@@ -13,7 +13,7 @@ function openlinks(){
 function openindex(){
 
 document.getElementById("btn2").addEventListener("click", () => {
- parent.location="../index.html"
+ parent.location="./index.html"
 });
 }
 
@@ -66,6 +66,34 @@ function drop2() {
     } else {
       // If a different value is selected, show an alert
       alert("Please select H Pencil");
+    }
+  });
+}
+
+function drop3() {
+  // Assuming 'trans2', 'arr1', 'dropMenu2', and 'arrow1' are HTML elements, fetch them using getElementById.
+  const trans3 = document.getElementById("trans3");
+  const arr3 = document.getElementById("arr3");
+  const dropMenu3 = document.getElementById("dropMenu3");
+  const arrow12 = document.getElementById("arrow12");
+
+  // Hide 'trans2', 'arr1', and show 'dropMenu2'
+  trans3.style.visibility = "hidden";
+  arr3.style.visibility = "hidden";
+  dropMenu3.style.visibility = "visible";
+
+  // Add a change event listener to 'dropMenu2'
+  dropMenu3.addEventListener("change", (evt) => {
+    let selectedValue = dropMenu3.value; // Corrected variable name to 'dropMenu2'
+
+    if (selectedValue === "3hPencil") {
+      // If 'hPencil' is selected, hide 'dropMenu2' and 'whitebox3', and show 'arrow1'
+      dropMenu3.style.visibility = "hidden";
+      document.getElementById("whitebox4").style.visibility = "hidden";
+      arrow12.style.visibility = "visible";
+    } else {
+      // If a different value is selected, show an alert
+      alert("Please select 3H Pencil");
     }
   });
 }
@@ -251,7 +279,7 @@ function gif14() {
 
 function gif15() {
   document.getElementById("nineteen").style.visibility = "hidden";
-  document.getElementById("arrow7").style.visibility = "hidden";
+  document.getElementById("arrow1").style.visibility = "hidden";
   document.getElementById("gif15").style.visibility = "visible";
   myTimeout = setTimeout(() => {
     document.getElementById("gif15").style.visibility = "hidden";
@@ -292,7 +320,7 @@ function gif17() {
 function gif18() {
   document.getElementById("transbox14").style.visibility = "hidden";
   document.getElementById("twentyfour").style.visibility = "hidden";
-  document.getElementById("arrow3").style.visibility = "hidden";
+  document.getElementById("arr2").style.visibility = "hidden";
   document.getElementById("gif18").style.visibility = "visible";
   myTimeout = setTimeout(() => {
     document.getElementById("gif18").style.visibility = "hidden";
@@ -358,7 +386,7 @@ function q2gif3(){
 // -----------------------question-2 step-2---------------------
 
 function q2gif4(){
-  document.getElementById("arrow12").style.visibility = "hidden";
+  document.getElementById("arrow13").style.visibility = "hidden";
   document.getElementById("q2gif4").style.visibility="visible"
  document.getElementById("transbox18").style.visibility="hidden"
  myTimeout=setTimeout(()=>{
@@ -369,7 +397,7 @@ function q2gif4(){
 // -----------------------question-2 step-3---------------------
 
 function q2gif5(){
-  document.getElementById("arrow12").style.visibility = "hidden";
+  document.getElementById("arrow13").style.visibility = "hidden";
   document.getElementById("q2gif5").style.visibility="visible"
   document.getElementById("transbox18").style.visibility="hidden"
   myTimeout=setTimeout(()=>{

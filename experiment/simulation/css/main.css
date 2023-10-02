@@ -62,6 +62,23 @@ nav .logo2{
     left: 100px;
 }
 
+.assembly1{
+    visibility: visible;
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    top:100px;
+    left: 170px;
+}
+
+.assembly2{
+    visibility: visible;
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    top:100px;
+    left: 170px;
+}
 
 #arrowleft {
     position: absolute;
@@ -451,74 +468,72 @@ nav .logo2{
 
 #q2gif1 {
     position: absolute;
-    left: 30px;
-    /* padding-top: 30px; */
-    /* border: 2px solid;    */
-    top: 128px;
+    left: 54px;
+    top: 150px;
 }
 
 #q2gif2 {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #q2gif3 {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #q2gif4 {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #q2gif5 {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #q2gif6 {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #q2gif7 {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #q2gif8 {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #q2gif9 {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #transbox2 {
@@ -601,13 +616,13 @@ nav .logo2{
 }
 
 #transbox16 {
-    /* border: 2px solid black; */
+    /* border: 2px solid black ; */
     height: 166px;
     width: 25px;
     rotate: 55deg;
     position: absolute;
-    left: 650px;
-    top: 127px;
+    left: 639px;
+    top: 142px;
 }
 
 #transbox17 {
@@ -616,8 +631,8 @@ nav .logo2{
     width: 25px;
     rotate: 55deg;
     position: absolute;
-    left: 650px;
-    top: 127px;
+    left: 639px;
+    top: 142px;
 }
 
 #transbox18 {
@@ -626,8 +641,8 @@ nav .logo2{
     width: 25px;
     rotate: 55deg;
     position: absolute;
-    left: 650px;
-    top: 127px;
+    left: 639px;
+    top: 142px;
 }
 
 #transbox19 {
@@ -898,82 +913,87 @@ nav .logo2{
 /* -----------------quetion-2 images ------------- */
 
 #thirty {
-    padding-top: 30px;
+    position: absolute;
+    /* padding-top: 30px; */
     /* border: 2px solid; */
-    height: 100%;
-    width: 100%;
+    height: 390px;
+    left: 54px;
+    top: 150px;
 }
 
 #thirtytwo {
-    padding-top: 30px;
+    position: absolute;
+    /* padding-top: 30px; */
     /* border: 2px solid; */
-    height: 100%;
-    width: 100%;
+    height: 390px;
+    left: 54px;
+    top: 150px;
 }
 
 #thirtyone {
     position: absolute;
-    left: 30px;
     /* padding-top: 30px; */
-    /* border: 2px solid;    */
-    top: 128px;
+    /* border: 2px solid; */
+    height: 390px;
+    left: 54px;
+    top: 150px;
 }
 
 
 #thirtythree {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #thirtyfour {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #thirtyfive {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #thirtysix {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #thirtyseven {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #thirtyeight {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #thirtynine {
     position: absolute;
-    left: 30px;
+    left: 54px;
     /* padding-top: 30px; */
     /* border: 2px solid;    */
-    top: 128px;
+    top: 150px;
 }
 
 #whitebox {
@@ -1027,6 +1047,18 @@ nav .logo2{
     visibility: visible;
 }
 
+#whitebox4{
+    position: absolute;
+    /* border: 2px solid   black; */
+    height: 164px;
+    width: 25px;
+    rotate: 55deg;
+    left: 639px;
+    top: 154px;
+    z-index: 10;
+    background-color: white;
+    visibility: visible;
+}
 
 #trans1{
     position: absolute;
@@ -1046,6 +1078,15 @@ nav .logo2{
     height: 50px;
 }
 
+#trans3{
+    position: absolute;
+    /* border: 2px solidblack; */
+    top: 100px;
+    left: 426px;
+    width: 59px;
+    height: 50px;
+}
+
 /* ---------------------optopns------------------------- */
 
 .dropMenu{
@@ -1059,6 +1100,16 @@ nav .logo2{
     left: 355px;
 }
 
+.dropMenu1{
+    position: absolute;
+    visibility:hidden;
+    width: 70px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    top: 150px;
+    left: 425px;
+}
 
 #arr1 {
     position: absolute;
@@ -1066,6 +1117,15 @@ nav .logo2{
     rotate: -90deg;
     top: 163px;
     left: 362px;
+    z-index: 100;
+}
+
+#arr3 {
+    position: absolute;
+    height: 30px;
+    rotate: -90deg;
+    top: 151px;
+    left: 430px;
     z-index: 100;
 }
 
@@ -1205,8 +1265,19 @@ nav .logo2{
 #arrow12 {
     /* border: 2px solid black; */
     position: absolute;
-    top: 153px;
-    left: 595px;
+    top: 175px;
+    left: 585px;
+    rotate: 55deg;
+    z-index: 10;
+    visibility: hidden;
+    /* initial visible */
+}
+
+#arrow13 {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 175px;
+    left: 585px;
     rotate: 55deg;
     z-index: 10;
     visibility: visible;
