@@ -6,7 +6,7 @@ const page2 = document.getElementById("container2");
 
 function openlinks(){
   document.getElementById("btn1").addEventListener("click", () => {
-    parent.location = "./problem-1/links.html";
+    parent.location = "./links.html";
   });
 }
 
@@ -17,11 +17,66 @@ document.getElementById("btn2").addEventListener("click", () => {
 });
 }
 
+// ----------------------options-------------------------
 
+function drop() {
+  const trans1 = document.getElementById("trans1"); // Assuming 'trans1' is an element ID
+  const arr1 = document.getElementById("arr1"); // Assuming 'arr1' is an element ID
+  const dropMenu1 = document.getElementById("dropMenu1"); // Assuming 'dropMenu1' is an element ID
+  const arrow1 = document.getElementById("arrow1");
+  trans1.style.visibility = "hidden";
+  arr1.style.visibility = "hidden";
+  dropMenu1.style.visibility = "visible";
+
+  dropMenu1.addEventListener("change", (evt) => {
+    let selectedValue = dropMenu1.value;
+    if (selectedValue === "3hPencil") {
+      dropMenu1.style.visibility = "hidden";
+      document.getElementById("whitebox2").style.visibility = "hidden";
+      arrow1.style.visibility = "visible";
+    } else {
+      alert("Please select 3H Pencil");
+    }
+  });
+}
+
+
+function drop2() {
+  // Assuming 'trans2', 'arr1', 'dropMenu2', and 'arrow1' are HTML elements, fetch them using getElementById.
+  const trans2 = document.getElementById("trans2");
+  const arr1 = document.getElementById("arr1");
+  const arr2 = document.getElementById("arr2");
+  const dropMenu2 = document.getElementById("dropMenu2");
+  const arrow1 = document.getElementById("arrow1");
+
+  // Hide 'trans2', 'arr1', and show 'dropMenu2'
+  trans2.style.visibility = "hidden";
+  arr1.style.visibility = "hidden";
+  dropMenu2.style.visibility = "visible";
+
+  // Add a change event listener to 'dropMenu2'
+  dropMenu2.addEventListener("change", (evt) => {
+    let selectedValue = dropMenu2.value; // Corrected variable name to 'dropMenu2'
+
+    if (selectedValue === "hPencil") {
+      // If 'hPencil' is selected, hide 'dropMenu2' and 'whitebox3', and show 'arrow1'
+      dropMenu2.style.visibility = "hidden";
+      document.getElementById("whitebox3").style.visibility = "hidden";
+      arr2.style.visibility = "visible";
+    } else {
+      // If a different value is selected, show an alert
+      alert("Please select H Pencil");
+    }
+  });
+}
 
 function gif1() {
   document.getElementById("one").style.visibility = "hidden";
-  document.getElementById("whitebox").style.visibility = "hidden";
+  document.getElementById(
+
+
+
+    "whitebox").style.visibility = "hidden";
   document.getElementById("arrow1").style.visibility = "hidden";
   document.getElementById("gif1").style.visibility = "visible";
   myTimeout = setTimeout(() => {
@@ -183,7 +238,7 @@ function gif13() {
 
 function gif14() {
   document.getElementById("seventeen").style.visibility = "hidden";
-  document.getElementById("arrow3").style.visibility = "hidden";
+  document.getElementById("arr2").style.visibility = "hidden";
   document.getElementById("gif14").style.visibility = "visible";
   myTimeout = setTimeout(() => {
     document.getElementById("gif14").style.visibility = "hidden";

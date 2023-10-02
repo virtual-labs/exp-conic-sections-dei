@@ -33,12 +33,12 @@ nav .logo1{
 nav .logo2{
     height: 70px;
 }
-.line {
+/* .line {
     width: 100%;
     height: 1.6rem;
     background-color: rgba(222, 235, 247, 255);
     ;
-}
+} */
 
 .hero {
     height: 100vh;
@@ -52,6 +52,16 @@ nav .logo2{
     background-color: rgba(222, 235, 247, 255);
     position: relative;
 }
+
+.assembly{
+    visibility: visible;
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    top:110px;
+    left: 100px;
+}
+
 
 #arrowleft {
     position: absolute;
@@ -991,6 +1001,85 @@ nav .logo2{
     /* initial visible */
 }
 
+#whitebox2{
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 145px;
+    width: 25px;
+    rotate: 54deg;
+    left: 527px;
+    top: 182px;
+    z-index: 10;
+    background-color: white;
+    visibility: visible;
+}
+
+#whitebox3{
+    position: absolute;
+    /* border: 2px solid   black; */
+    height: 140px;
+    width: 25px;
+    rotate: 41deg;
+    left: 562px;
+    top: 170px;
+    z-index: 10;
+    background-color: white;
+    visibility: visible;
+}
+
+
+#trans1{
+    position: absolute;
+    /* border: 2px solid black; */
+    top: 108px;
+    left: 356px;
+    width: 59px;
+    height: 50px;
+}
+
+#trans2{
+    position: absolute;
+    /* border: 2px solid black; */
+    top: 108px;
+    left: 356px;
+    width: 59px;
+    height: 50px;
+}
+
+/* ---------------------optopns------------------------- */
+
+.dropMenu{
+    position: absolute;
+    visibility:hidden;
+    width: 70px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    top: 160px;
+    left: 355px;
+}
+
+
+#arr1 {
+    position: absolute;
+    height: 30px;
+    rotate: -90deg;
+    top: 163px;
+    left: 362px;
+    z-index: 100;
+}
+
+#arr2{
+   /* border: 2px solid black; */
+   position: absolute;
+   top: 200px;
+   left: 505px;
+   rotate: 40deg;
+   z-index: 10;
+   visibility: hidden;
+   /* initial visible */
+}
+
 #arrow1 {
     /* border: 2px solid black; */
     position: absolute;
@@ -998,7 +1087,7 @@ nav .logo2{
     left: 477px;
     rotate: 53deg;
     z-index: 10;
-    visibility: visible;
+    visibility: hidden;
     /* initial visible */
 }
 
