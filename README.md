@@ -19,6 +19,6 @@ Fill a brief description of this experiment here
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
-SrNo|Date|Faculty of Student|Department|Institute|Email id|
-1 | Anuj Tripathi | Faculty of Enfineering | Civil Engineering | Dayalbagh Educational Institute | atripati1253@gmail.com
-2 | Shyamendra Tomar | Faculty of Engineering | Agriculture Engineering | Dayalbagh Educational Institute | shyamendratomar736@gmail.com
+:--|:--|:--|:--|:--|:--|
+1 | <b> Anuj Tripathi | Faculty of Enfineering | Civil Engineering | Dayalbagh Educational Institute | <b> atripati1253@gmail.com
+2 | <b> Shyamendra Tomar | Faculty of Engineering | Agriculture Engineering | Dayalbagh Educational Institute | <b> shyamendratomar736@gmail.com
