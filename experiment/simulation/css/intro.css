@@ -3,45 +3,41 @@
     padding: 0;
 }
 
-nav {
-    /* position: relative; */
-    display: flex;
-    height: 7rem;
-    width: 100%;
-    justify-content: space-between;
-    /* padding: 0 13px; */
-
-}
-
-#vlab-beaker
-{
-    /* border: 2px solid ; */
-    display: flex;
-    justify-content: center;
-}
-
-#vlabs {
-    font-size: 2rem;
-    padding-top: .5rem;
-    position: relative;
-}
-
-p {
-    padding: 2rem;
-    font-family: verdana;
-}
-
-#logo {
+nav{
+    height: 75px;
     /* border: 2px solid black; */
-    align-items: center;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
 }
 
-.line {
+.redline{
+    /* border: 2px solid black; */
+    height: 7px;
+    width: full;
+    background-color: #fd7e14;
+}
+
+.vlabs{
+    font-size: 35px;
+    font-weight: 400;
+    color: #2c99ce;
+    font-family: sans-serif;
+}
+
+nav .logo1{
+    height: 60px;
+}
+
+nav .logo2{
+    height: 70px;
+}
+/* .line {
     width: 100%;
     height: 1.6rem;
     background-color: #dce5ec;
-}
+} */
 
 .hero {
     height: 100vh;
@@ -58,7 +54,7 @@ p {
 
 .projection {
     display: flex;
-        justify-content: center;
+    justify-content: center;
     align-items: center;
     height: 2.5rem;
     letter-spacing: .1em;
@@ -71,7 +67,9 @@ p {
     font-size: 14px;
 }
 
-
+.step1{
+    padding: 30px;
+}
 
 .content {
     display: flex;
