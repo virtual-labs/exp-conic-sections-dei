@@ -380,7 +380,7 @@ function q2gif3(){
    document.getElementById("q2gif3").style.visibility="hidden"
    document.getElementById("next").style.visibility = "visible";
     document.getElementById("thirtyone").style.visibility="visible";
-  },6500)
+  },6000)
 }
 
 // -----------------------question-2 step-2---------------------
