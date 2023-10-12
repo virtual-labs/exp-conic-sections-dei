@@ -544,6 +544,22 @@ nav .logo2{
     top: 150px;
 }
 
+#q2gif11 {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#q2gif30 {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
 #transbox2 {
     /* border: 2px solid black; */
     height: 145px;
@@ -664,13 +680,22 @@ nav .logo2{
 }
 
 #transbox20 {
-    /* border: 2px solid black; */
-    height: 166px;
-    width: 25px;
-    rotate: 69deg;
-    position: absolute;
-    left: 640px;
-    top: 140px;
+     /* border: 2px solid black; */
+     height: 166px;
+     width: 25px;
+     rotate: 69deg;
+     position: absolute;
+     left: 640px;
+     top: 140px;
+}
+
+#transbox21 {
+     /* border: 2px solid black; */
+     height: 166px;
+     width: 55px;
+     position: absolute;
+     left: 620px;
+     top: 155px;
 }
 
 #transbox11 {
@@ -1022,6 +1047,22 @@ nav .logo2{
     top: 150px;
 }
 
+#fourtyone {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#fourtytwo {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
 #whitebox {
     height: 40px;
     width: 200px;
@@ -1302,9 +1343,8 @@ nav .logo2{
 #arrow13 {
     /* border: 2px solid black; */
     position: absolute;
-    top: 175px;
-    left: 585px;
-    rotate: 55deg;
+    top: 195px;
+    left: 555px;
     z-index: 10;
     visibility: visible;
     /* initial visible */
@@ -1731,6 +1771,44 @@ nav .logo2{
 }
 
 .content23 button {
+    /* visibility: hiden; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 669px;
+    top: 552px;
+    border: none;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    color: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content24 button {
+    /* visibility: hiden; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 669px;
+    top: 552px;
+    border: none;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    color: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content25 button {
     /* visibility: hiden; */
     /* border: 2px solid black; */
     position: absolute;
