@@ -423,6 +423,7 @@ function q2gif6(){
     document.getElementById("arrow12").style.visibility = "visible";
     document.getElementById("thirtyfour").style.visibility="hidden"
     document.getElementById("transbox19").style.visibility = "visible";
+    // document.getElementById("next").style.visibility = "visible";
   },11000)
 }
 
@@ -460,8 +461,35 @@ function q2gif9(){
   document.getElementById("thirtyeight").style.visibility="hidden"
   document.getElementById("q2gif9").style.visibility="visible"
   myTimeout=setTimeout(()=>{
-    document.getElementById("q2gif8").style.visibility="hidden"
+    document.getElementById("arrow12").style.visibility = "visible";
+    document.getElementById("q2gif9").style.visibility="hidden"
+    document.getElementById("transbox20").style.visibility="visible"
     document.getElementById("thirtynine").style.visibility="visible"
     document.getElementById("next").style.visibility = "visible";
-  },22000)
+  },20000)
+}
+
+function q2gif9(){
+  document.getElementById("arrow12").style.visibility = "hidden";
+  document.getElementById("transbox19").style.visibility="hidden"
+  document.getElementById("thirtyeight").style.visibility="hidden"
+  document.getElementById("q2gif9").style.visibility="visible"
+  myTimeout=setTimeout(()=>{
+    document.getElementById("arrow12").style.visibility = "visible";
+    document.getElementById("q2gif9").style.visibility="hidden"
+    document.getElementById("transbox20").style.visibility="visible"
+    document.getElementById("thirtynine").style.visibility="visible"
+  },45000)
+}
+
+function q2gif10(){
+  document.getElementById("arrow12").style.visibility = "hidden";
+  document.getElementById("transbox20").style.visibility="hidden"
+  document.getElementById("thirtynine").style.visibility="hidden"
+  document.getElementById("q2gif10").style.visibility="visible"
+  myTimeout=setTimeout(()=>{
+    document.getElementById("q2gif10").style.visibility="hidden"
+    document.getElementById("fourty").style.visibility="visible"
+    document.getElementById("next").style.visibility = "visible";
+  },45000)
 }
