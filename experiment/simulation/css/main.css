@@ -648,6 +648,46 @@ nav .logo2{
     top: 150px;
 }
 
+#q2gif35 {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#q2gif36 {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#q2gif37 {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#q2gif38 {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#q2gif39 {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
 #transbox2 {
     /* border: 2px solid black; */
     height: 145px;
@@ -748,6 +788,16 @@ nav .logo2{
 }
 
 #transbox18 {
+    /* border: 2px solid black; */
+    height: 166px;
+    width: 25px;
+    rotate: 55deg;
+    position: absolute;
+    left: 639px;
+    top: 142px;
+}
+
+#transbox26 {
     /* border: 2px solid black; */
     height: 166px;
     width: 25px;
@@ -1238,6 +1288,62 @@ nav .logo2{
     top: 90px;
 }
 
+#fiftyeight {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#fiftynine {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#sixty {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#sixtytwo {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#sixtyfour {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#sixtyone {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#sixtythree {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
 #fourtyseven {
     position: absolute;
     left: 54px;
@@ -1296,6 +1402,14 @@ nav .logo2{
 }
 
 #fiftyfive {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#fiftysix {
     position: absolute;
     left: 54px;
     /* padding-top: 30px; */
@@ -2176,6 +2290,101 @@ nav .logo2{
 }
 
 .content29 button {
+    /* visibility: hiden; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 669px;
+    top: 552px;
+    border: none;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    color: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content30 button {
+    /* visibility: hiden; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 669px;
+    top: 552px;
+    border: none;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    color: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content31 button {
+    /* visibility: hiden; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 669px;
+    top: 552px;
+    border: none;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    color: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content32 button {
+    /* visibility: hiden; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 669px;
+    top: 552px;
+    border: none;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    color: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content33 button {
+    /* visibility: hiden; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 669px;
+    top: 552px;
+    border: none;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    color: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content34 button {
     /* visibility: hiden; */
     /* border: 2px solid black; */
     position: absolute;
