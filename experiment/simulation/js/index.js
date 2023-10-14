@@ -380,7 +380,7 @@ function q2gif3(){
    document.getElementById("q2gif3").style.visibility="hidden"
    document.getElementById("next").style.visibility = "visible";
     document.getElementById("thirtyone").style.visibility="visible";
-  },6000)
+  },5500)
 }
 
 // -----------------------question-2 step-2---------------------
@@ -584,7 +584,7 @@ function q2gif23(){
     document.getElementById("q2gif23").style.visibility="hidden"
     document.getElementById("fourtynine").style.visibility="visible"
     document.getElementById("next").style.visibility = "visible";
-  },8000)
+  },7500)
 }
     // -----------------------question-2 step-12---------------------
     
@@ -599,7 +599,7 @@ function q2gif23(){
         document.getElementById("q2gif24").style.visibility="hidden"
         document.getElementById("transbox25").style.visibility="visible"
         document.getElementById("fifty").style.visibility="visible"
-      },9900)
+      },9100)
     }
     
     function q2gif25(){
@@ -624,22 +624,22 @@ function q2gif26(){
   document.getElementById("q2gif26").style.visibility="visible"
   myTimeout=setTimeout(()=>{
     document.getElementById("q2gif26").style.visibility="hidden"
-    document.getElementById("fiftytwo").style.visibility="visible"
+    document.getElementById("fiftythree").style.visibility="visible"
     document.getElementById("next").style.visibility = "visible";
-  },9900)
+  },9500)
 }
     // -----------------------question-2 step-13---------------------
     
 function q2gif27(){
   document.getElementById("arrow16").style.visibility = "hidden";
-  document.getElementById("transbox22").style.visibility="hidden"
+  document.getElementById("transbox28").style.visibility="hidden"
   document.getElementById("fiftyfour").style.visibility="hidden"
   document.getElementById("q2gif27").style.visibility="visible"
   myTimeout=setTimeout(()=>{
     document.getElementById("q2gif27").style.visibility="hidden"
     document.getElementById("fiftyfive").style.visibility="visible"
     document.getElementById("next").style.visibility = "visible";
-  },6000)
+  },5600)
 }
 
 // -----------------------question-2 step-14--------------------
@@ -706,6 +706,7 @@ function q2gif35(){
       document.getElementById("sixtytwo").style.visibility = "visible";
     },53000)
   }
+
   // -----------------------question-3 step-8--------------------
 
   function q2gif39(){
@@ -718,4 +719,17 @@ function q2gif35(){
       document.getElementById("q2gif39").style.visibility="hidden"
       document.getElementById("sixtyfour").style.visibility = "visible";
     },43000)
+  }
+  // -----------------------question-3 step-9--------------------
+
+  function q2gif40(){
+    document.getElementById("arrow12").style.visibility = "hidden";
+    document.getElementById("sixtysix").style.visibility = "hidden";
+    document.getElementById("transbox28").style.visibility = "hidden";
+    document.getElementById("q2gif40").style.visibility="visible"
+    myTimeout=setTimeout(()=>{
+      document.getElementById("next").style.visibility = "visible";
+      document.getElementById("q2gif40").style.visibility="hidden"
+      document.getElementById("sixtysix").style.visibility = "visible";
+    },3500)
   }

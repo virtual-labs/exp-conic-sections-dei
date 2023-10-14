@@ -688,6 +688,14 @@ nav .logo2{
     top: 150px;
 }
 
+#q2gif40 {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
 #transbox2 {
     /* border: 2px solid black; */
     height: 145px;
@@ -795,6 +803,26 @@ nav .logo2{
     position: absolute;
     left: 639px;
     top: 142px;
+}
+
+#transbox27 {
+    /* border: 2px solid black; */
+    height: 166px;
+    width: 25px;
+    rotate: 67deg;
+    position: absolute;
+    left: 644px;
+    top: 130px;
+}
+
+#transbox28 {
+    /* border: 2px solid black; */
+    height: 166px;
+    width: 25px;
+    rotate: 50deg;
+    position: absolute;
+    left: 659px;
+    top: 119px;
 }
 
 #transbox26 {
@@ -1321,6 +1349,22 @@ nav .logo2{
 }
 
 #sixtyfour {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#sixtyfive {
+    position: absolute;
+    left: 54px;
+    /* padding-top: 30px; */
+    /* border: 2px solid;    */
+    top: 150px;
+}
+
+#sixtysix {
     position: absolute;
     left: 54px;
     /* padding-top: 30px; */
@@ -2385,6 +2429,25 @@ nav .logo2{
 }
 
 .content34 button {
+    /* visibility: hiden; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 669px;
+    top: 552px;
+    border: none;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(20, 117, 228);
+    color: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content35 button {
     /* visibility: hiden; */
     /* border: 2px solid black; */
     position: absolute;
