@@ -24,6 +24,8 @@ function timedelay() {
   document.getElementById("clip4").style.visibility = "visible";
   document.getElementById("drafter-out").style.visibility = "visible";
   document.getElementById("substep").style.visibility = "hidden";
+  document.getElementById("main1").style.visibility = "hidden";
+  document.getElementById("main2").style.visibility = "visible";
   document.getElementById("substep1").style.visibility = "visible";
 }
 

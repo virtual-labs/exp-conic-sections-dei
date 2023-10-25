@@ -632,6 +632,18 @@ function q2gif26(){
     
 function q2gif27(){
   document.getElementById("arrow16").style.visibility = "hidden";
+  document.getElementById("transbox22").style.visibility="hidden"
+  document.getElementById("fiftyfour").style.visibility="hidden"
+  document.getElementById("q2gif27").style.visibility="visible"
+  myTimeout=setTimeout(()=>{
+    document.getElementById("q2gif27").style.visibility="hidden"
+    document.getElementById("fiftyfive").style.visibility="visible"
+    document.getElementById("next").style.visibility = "visible";
+  },5600)
+}
+    
+function q2gif41(){
+  document.getElementById("arrow16").style.visibility = "hidden";
   document.getElementById("transbox28").style.visibility="hidden"
   document.getElementById("fiftyfour").style.visibility="hidden"
   document.getElementById("q2gif27").style.visibility="visible"
@@ -725,7 +737,7 @@ function q2gif35(){
   function q2gif40(){
     document.getElementById("arrow12").style.visibility = "hidden";
     document.getElementById("sixtysix").style.visibility = "hidden";
-    document.getElementById("transbox28").style.visibility = "hidden";
+    document.getElementById("transbox27").style.visibility = "hidden";
     document.getElementById("q2gif40").style.visibility="visible"
     myTimeout=setTimeout(()=>{
       document.getElementById("next").style.visibility = "visible";
