@@ -25,13 +25,13 @@ An ellipse is formed when the plane is inclined to the axis, cutting all the gen
 #### 2. Parabola
 A Parabola is formed when the plane runs parallel to one of the generators and is inclined to the axis. Its eccentricity is always equal to 1. A parabola has one focus and one directrix.<br><br>
 <p align="center">
-  <img src="images/parabola.png" alt="Parabola" height = 300>
+  <img src="images/parabola.png" alt="Parabola" height = 260>
 </p>
 
 #### 2. Hyperbola
 A hyperbola is formed when two cones face each other and are intersected by a plane that is parallel to the axes of the cone. The eccentricity of this type of conic section is greater than 1.<br><br>
 <p align="center">
-  <img src="images/hyperbola.png" alt="Hyperbola" height = 300>
+  <img src="images/hyperbola.png" alt="Hyperbola" height = 280>
 </p><br>
 
 A **Parabola** is found in numerous forms in real life such as a ball thrown high forms a parabolic path, automobile headlights and the bulbs in lighthouses are also parabolic, many architectural structures are built in parabolic geometry.<br><br> 
