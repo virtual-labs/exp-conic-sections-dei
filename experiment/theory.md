@@ -17,5 +17,7 @@ A Parabola is formed when the plane runs parallel to one of the generators and i
 <img src="images/parabola.png" alt="Parabola" height = 300><br>
 #### 3. Hyperbola
 A hyperbola is formed when two cones face each other and are intersected by a plane that is parallel to the axes of the cone. The eccentricity of this type of conic section is greater than 1.<br><br>
-<img src="images/hyperbola.png" alt="Hyperbola" height = 300><br>
-A Parabola is found in numerous forms in real life such as a ball thrown high forms a parabolic path, automobile headlights and the bulbs in lighthouses are also parabolic, many architectural structures are built in parabolic geometry. Ellipse is used to reflect sound and light. Also when a cylindrical shape is cut at by a cutting plane inclined to its axis, the section shape obtained is ellipse. The sides of a guitar are in Hyperbolic shape and hyperbolic gears are found in gear transmissions.
+<img src="images/hyperbola.png" alt="Hyperbola" height = 300><br><br>
+A **Parabola** is found in numerous forms in real life such as a ball thrown high forms a parabolic path, automobile headlights and the bulbs in lighthouses are also parabolic, many architectural structures are built in parabolic geometry.<br><br> 
+**Ellipse** is used to reflect sound and light. Also when a cylindrical shape is cut at by a cutting plane inclined to its axis, the section shape obtained is ellipse.<br><br>
+The sides of a guitar are in **Hyperbolic** shape and hyperbolic gears are found in gear transmissions.
