@@ -8,7 +8,7 @@ A conic section is originated from the convergence of a right circular cone by a
 
 <p align="center">
   <img src="images/conic_section.png" alt="Conic Sections" height = 300>
-</p><br>
+</p>
 
 The locus of a point moving in a plane such that the ratio of the distance of the point from focus to the distance of the point from the directrix is always the same. This ratio is termed eccentricity (e).<br><br>
 
