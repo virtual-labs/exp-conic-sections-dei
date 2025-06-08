@@ -32,7 +32,7 @@
     {
       "question": "Which of the following conic section is formed if the distance of point from the directrix is 35 units and the distance of point from the focus is 45 units? ",
       "answers": {
-        "a": "Ellipse ",
+        "a": "Hyperbola ",
         "b": "Parabola ",
         "c": "Ellipse ",
         "d": "Circle "
@@ -46,13 +46,13 @@
     {
       "question": "Which of the conic section if formed, if the eccentricity is 0.333 ",
       "answers": {
-        "a": "Ellipse ",
+        "a": "Hyperbola ",
         "b": "Parabola ",
         "c": "Ellipse ",
         "d": "Circle "
       },
       "explanations": {
-        "b": "Ellipse"
+        "c": "Ellipse"
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
