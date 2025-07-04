@@ -50,7 +50,7 @@
         "b": "False"
       },
       "explanations": {
-        "b": "True"
+        "a": "True"
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
