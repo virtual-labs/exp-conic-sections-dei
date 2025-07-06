@@ -52,7 +52,7 @@
       "explanations": {
         "a": "True"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
@@ -94,7 +94,7 @@
       "explanations": {
         "a": "Parabola"
       },
-      "correctAnswer": "d",
+      "correctAnswer": "a",
       "difficulty": "advanced"
     },
     {
