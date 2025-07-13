@@ -9,10 +9,8 @@
         "c": "0.5",
         "d": "0.4"
       },
-      "explanations": {
-        "d": "0.4"
-      },
       "correctAnswer": "d",
+      "explanation": "Eccentricity e = distance from focus / distance from directrix = 20 / 50 = 0.4.",
       "difficulty": "advanced"
     },
     {
@@ -23,10 +21,8 @@
         "c": "Less than 1 ",
         "d": "None of the above "
       },
-      "explanations": {
-        "b": "Greater than 1"
-      },
       "correctAnswer": "b",
+      "explanation": "The eccentricity of a hyperbola is greater than 1, so the ratio is also greater than 1.",
       "difficulty": "advanced"
     },
     {
@@ -37,10 +33,8 @@
         "c": "Ellipse ",
         "d": "Circle "
       },
-      "explanations": {
-        "a": "Hyperbola"
-      },
       "correctAnswer": "a",
+      "explanation": "Since the focus distance is greater than the directrix distance, eccentricity > 1 → hyperbola.",
       "difficulty": "advanced"
     },
     {
@@ -51,10 +45,8 @@
         "c": "Ellipse ",
         "d": "Circle "
       },
-      "explanations": {
-        "c": "Ellipse"
-      },
       "correctAnswer": "c",
+      "explanation": "If eccentricity is less than 1 but more than 0, the conic is an ellipse.",
       "difficulty": "intermediate"
     },
     {
@@ -65,10 +57,8 @@
         "c": "Less than 1 ",
         "d": "0"
       },
-      "explanations": {
-        "d": "0"
-      },
       "correctAnswer": "d",
+      "explanation": "A circle has zero eccentricity as its focus and center coincide.",
       "difficulty": "intermediate"
     },
     {
@@ -79,10 +69,8 @@
         "c": "The distance between the foci of an ellipse is the major axis. ",
         "d": "The distance between the foci of an ellipse is twice the length of the minor axis."
       },
-      "explanations": {
-        "d": "The distance between the foci of an ellipse is twice the length of the minor axis."
-      },
       "correctAnswer": "d",
+      "explanation": "The correct relationship is 2c = distance between foci, which can relate to 2b in some ellipse forms.",
       "difficulty": "intermediate"
     },
     {
@@ -93,10 +81,8 @@
         "c": "Light reflectors ",
         "d": "None of the above "
       },
-      "explanations": {
-        "c": "Light reflectors"
-      },
       "correctAnswer": "c",
+      "explanation": "Parabolas reflect light rays to a single point, making them ideal for reflectors.",
       "difficulty": "beginner"
     },
     {
@@ -107,10 +93,8 @@
         "c": "Ellipse  ",
         "d": "Circle "
       },
-      "explanations": {
-        "b": "Parabola"
-      },
       "correctAnswer": "b",
+      "explanation": "A parabola is defined as the set of points equidistant from a fixed point and a fixed line.",
       "difficulty": "beginner"
     },
     {
@@ -121,10 +105,8 @@
         "c": "Hyperbola  ",
         "d": "Circle "
       },
-      "explanations": {
-        "c": "Hyperbola"
-      },
       "correctAnswer": "c",
+      "explanation": "A hyperbola is formed when a plane cuts through both nappes of a double cone.",
       "difficulty": "beginner"
     }
   ]

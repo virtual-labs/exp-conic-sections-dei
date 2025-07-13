@@ -9,10 +9,8 @@
         "c": "Parabola ",
         "d": "All of the above "
       },
-      "explanations": {
-        "a": "Ellipse "
-      },
       "correctAnswer": "a",
+      "explanation": "An ellipse is a closed curve, while hyperbolas and parabolas are open.",
       "difficulty": "beginner"
     },
     {
@@ -23,10 +21,8 @@
         "c": "Shape",
         "d": "None of the above"
       },
-      "explanations": {
-        "c": "Shape "
-      },
       "correctAnswer": "c",
+      "explanation": "Eccentricity defines the shape and type of the conic section.",
       "difficulty": "beginner"
     },
     {
@@ -37,10 +33,8 @@
         "c": "Parabola",
         "d": "Circle"
       },
-      "explanations": {
-        "d": "Circle"
-      },
       "correctAnswer": "d",
+      "explanation": "A plane perpendicular to the cone's axis creates a circular cross-section.",
       "difficulty": "intermediate"
     },
     {
@@ -49,10 +43,8 @@
         "a": "True",
         "b": "False"
       },
-      "explanations": {
-        "a": "True"
-      },
       "correctAnswer": "a",
+      "explanation": "By definition, a parabola has one focus and one directrix.",
       "difficulty": "intermediate"
     },
     {
@@ -63,10 +55,8 @@
         "c": "Focus",
         "d": "None of the above"
       },
-      "explanations": {
-        "b": "Vertex"
-      },
       "correctAnswer": "b",
+      "explanation": "The vertex is the point where the conic intersects its axis of symmetry.",
       "difficulty": "intermediate"
     },
     {
@@ -77,10 +67,8 @@
         "c": "x²/ a² – y² / b² = 1",
         "d": "None of the above"
       },
-      "explanations": {
-        "a": "x² / a² + y² / b² = 1"
-      },
       "correctAnswer": "a",
+      "explanation": "The standard form of an ellipse is x²/a² + y²/b² = 1.",
       "difficulty": "advanced"
     },
     {
@@ -91,10 +79,8 @@
         "c": "Ellipse",
         "d": "Hyperbola"
       },
-      "explanations": {
-        "a": "Parabola"
-      },
       "correctAnswer": "a",
+      "explanation": "A quadratic equation in x with degree 2 represents a parabola.",
       "difficulty": "advanced"
     },
     {
@@ -105,10 +91,8 @@
         "c": "Ellipse",
         "d": "Circle"
       },
-      "explanations": {
-        "b": "Hyperbola"
-      },
       "correctAnswer": "b",
+      "explanation": "The standard form of a hyperbola is (x²/a²) – (y²/b²) = 1.",
       "difficulty": "advanced"
     }
   ]
