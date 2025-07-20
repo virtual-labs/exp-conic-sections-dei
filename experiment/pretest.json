@@ -2,15 +2,17 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which of the following is a closed figure? ",
+      "question": "Which of the following is a closed figure?",
       "answers": {
-        "a": "Ellipse ",
-        "b": "Hyperbola ",
-        "c": "Parabola ",
-        "d": "All of the above "
+        "a": "Ellipse",
+        "b": "Hyperbola",
+        "c": "Parabola",
+        "d": "Circle"
+      },
+      "explanations": {
+        "a": "An ellipse is a closed curve that forms a complete loop, unlike hyperbolas and parabolas which are open curves that extend infinitely. The ellipse is bounded and encloses a finite area, making it the only closed figure among the conic sections listed."
       },
       "correctAnswer": "a",
-      "explanation": "An ellipse is a closed curve, while hyperbolas and parabolas are open.",
       "difficulty": "beginner"
     },
     {
@@ -19,10 +21,12 @@
         "a": "Area",
         "b": "Perimeter",
         "c": "Shape",
-        "d": "None of the above"
+        "d": "Volume"
+      },
+      "explanations": {
+        "c": "Eccentricity (e) defines the shape and type of conic section: e = 0 for a circle, 0 < e < 1 for an ellipse, e = 1 for a parabola, and e > 1 for a hyperbola. It measures how much the conic deviates from being circular."
       },
       "correctAnswer": "c",
-      "explanation": "Eccentricity defines the shape and type of the conic section.",
       "difficulty": "beginner"
     },
     {
@@ -33,54 +37,66 @@
         "c": "Parabola",
         "d": "Circle"
       },
+      "explanations": {
+        "d": "When a plane cuts a cone perpendicular to its axis (at 90°), the resulting cross-section is a circle. This occurs because all points on the cutting plane are equidistant from the cone's axis, creating a perfect circular shape."
+      },
       "correctAnswer": "d",
-      "explanation": "A plane perpendicular to the cone's axis creates a circular cross-section.",
       "difficulty": "intermediate"
     },
     {
       "question": "A parabola has a single focus and a single directrix.",
       "answers": {
         "a": "True",
-        "b": "False"
+        "b": "False",
+        "c": "Only for vertical parabolas",
+        "d": "Only for horizontal parabolas"
+      },
+      "explanations": {
+        "a": "This statement is true. By definition, a parabola is the locus of all points equidistant from a single fixed point (focus) and a single fixed line (directrix). This is what distinguishes a parabola from ellipses and hyperbolas, which have two foci."
       },
       "correctAnswer": "a",
-      "explanation": "By definition, a parabola has one focus and one directrix.",
       "difficulty": "intermediate"
     },
     {
-      "question": "What is the point at which the conic cuts its axis called? ",
+      "question": "What is the point at which the conic cuts its axis called?",
       "answers": {
-        "a": "Directrix ",
+        "a": "Directrix",
         "b": "Vertex",
         "c": "Focus",
-        "d": "None of the above"
+        "d": "Center"
+      },
+      "explanations": {
+        "b": "The vertex is the point where the conic section intersects its axis of symmetry. For a parabola, it's the turning point; for an ellipse or hyperbola, there are typically two vertices where the curve intersects the major axis."
       },
       "correctAnswer": "b",
-      "explanation": "The vertex is the point where the conic intersects its axis of symmetry.",
       "difficulty": "intermediate"
     },
     {
-      "question": "Mathematically, an ellipse is illustrated by the equation ____? ",
+      "question": "Mathematically, an ellipse is illustrated by the equation ____?",
       "answers": {
         "a": "x² / a² + y² / b² = 1",
         "b": "x²= 4ay",
         "c": "x²/ a² – y² / b² = 1",
-        "d": "None of the above"
+        "d": "x² + y² = r²"
+      },
+      "explanations": {
+        "a": "The standard form of an ellipse centered at the origin is x²/a² + y²/b² = 1, where 'a' and 'b' are the semi-major and semi-minor axes. The plus sign between the terms distinguishes it from a hyperbola, which uses a minus sign."
       },
       "correctAnswer": "a",
-      "explanation": "The standard form of an ellipse is x²/a² + y²/b² = 1.",
       "difficulty": "advanced"
     },
     {
-      "question": "What does the equation y= 4x²+ 3x + 5 represent?",
+      "question": "What does the equation y = 4x² + 3x + 5 represent?",
       "answers": {
         "a": "Parabola",
         "b": "Circle",
         "c": "Ellipse",
         "d": "Hyperbola"
       },
+      "explanations": {
+        "a": "This equation represents a parabola because it's a quadratic equation in x (highest power is 2) with y as a linear function of x². The general form y = ax² + bx + c always represents a parabola opening upward (if a > 0) or downward (if a < 0)."
+      },
       "correctAnswer": "a",
-      "explanation": "A quadratic equation in x with degree 2 represents a parabola.",
       "difficulty": "advanced"
     },
     {
@@ -91,8 +107,10 @@
         "c": "Ellipse",
         "d": "Circle"
       },
+      "explanations": {
+        "b": "This equation represents a hyperbola because it follows the standard form (x²/a²) - (y²/b²) = 1, where the minus sign between the x² and y² terms is the key identifier. Here, a² = 36 and b² = 9, so a = 6 and b = 3."
+      },
       "correctAnswer": "b",
-      "explanation": "The standard form of a hyperbola is (x²/a²) – (y²/b²) = 1.",
       "difficulty": "advanced"
     }
   ]
