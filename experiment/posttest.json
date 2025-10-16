@@ -10,7 +10,7 @@
         "d": "0.4"
       },
       "explanations": {
-        "d": "0.4"
+        "d": "Eccentricity e = distance from focus / distance from directrix = 20 / 50 = 0.4."
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
@@ -21,16 +21,16 @@
         "a": "Equal to 1 ",
         "b": "Greater than 1",
         "c": "Less than 1 ",
-        "d": "None of the above "
+        "d": "Equal to 0"
       },
       "explanations": {
-        "b": "Greater than 1"
+        "b": "The eccentricity of a hyperbola is greater than 1, so the ratio is also greater than 1."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
     },
     {
-      "question": "Which of the following conic section is formed if the distance of point from the directrix is 35 units and the distance of point from the focus is 45 units? ",
+      "question": "Which of the following conic section is formed if the distance of point from the directrix is 35 units and the distance of point from the focus is 45 units?",
       "answers": {
         "a": "Hyperbola ",
         "b": "Parabola ",
@@ -38,13 +38,13 @@
         "d": "Circle "
       },
       "explanations": {
-        "a": "Hyperbola"
+        "a": "Since the focus distance is greater than the directrix distance, eccentricity > 1 → hyperbola."
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
     },
     {
-      "question": "Which of the conic section if formed, if the eccentricity is 0.333 ",
+      "question": "Which of the conic section if formed, if the eccentricity is 0.333",
       "answers": {
         "a": "Hyperbola ",
         "b": "Parabola ",
@@ -52,9 +52,9 @@
         "d": "Circle "
       },
       "explanations": {
-        "c": "Ellipse"
+        "c": "If eccentricity is less than 1 but more than 0, the conic is an ellipse."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "intermediate"
     },
     {
@@ -66,13 +66,13 @@
         "d": "0"
       },
       "explanations": {
-        "d": "0"
+        "d": "A circle has zero eccentricity as its focus and center coincide."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
     },
     {
-      "question": "Which of the following statement is correct? ",
+      "question": "Which of the following statement is correct?",
       "answers": {
         "a": "The distance between the foci of an ellipse is the minor axis.",
         "b": "The distance between the foci of an ellipse is twice the length of the major axis.",
@@ -80,7 +80,7 @@
         "d": "The distance between the foci of an ellipse is twice the length of the minor axis."
       },
       "explanations": {
-        "d": "The distance between the foci of an ellipse is twice the length of the minor axis."
+        "d": "The correct relationship is 2c = distance between foci, which can relate to 2b in some ellipse forms."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -91,16 +91,16 @@
         "a": "Water channels ",
         "b": "Cooling towers ",
         "c": "Light reflectors ",
-        "d": "None of the above "
+        "d": "Sound reflectors "
       },
       "explanations": {
-        "c": "Light reflectors"
+        "c": "Parabolas reflect light rays to a single point, making them ideal for reflectors."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following conic section is formed if the distance from a fixed point is equal to the distance from a fixed straight line?" ,
+      "question": "Which of the following conic section is formed if the distance from a fixed point is equal to the distance from a fixed straight line?",
       "answers": {
         "a": "Hyperbola ",
         "b": "Parabola ",
@@ -108,13 +108,13 @@
         "d": "Circle "
       },
       "explanations": {
-        "b": "Parabola"
+        "b": "A parabola is defined as the set of points equidistant from a fixed point and a fixed line."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following conic section is formed by the intersection of a plane with both halves of a double cone?" ,
+      "question": "Which of the following conic section is formed by the intersection of a plane with both halves of a double cone?",
       "answers": {
         "a": "Parabola ",
         "b": "Ellipse",
@@ -122,7 +122,7 @@
         "d": "Circle "
       },
       "explanations": {
-        "c": "Hyperbola"
+        "c": "A hyperbola is formed when a plane cuts through both nappes of a double cone."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
